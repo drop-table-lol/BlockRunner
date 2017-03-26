@@ -53,4 +53,11 @@ public class PlayerMovement : MonoBehaviour {
         rb.AddForce(0, -jumpForce*2, 0, ForceMode.VelocityChange);
         isJumping = false;
     }
+
+
+
+    public void AddJumpForce(int _jumpToAdd)
+    {
+        jumpForce += _jumpToAdd;
+    }
 }
