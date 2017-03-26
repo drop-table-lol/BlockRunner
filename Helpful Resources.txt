@@ -1,0 +1,3 @@
+http://docs.oracle.com/javase/tutorial/java/concepts/ //Helpful Object oriented refresher
+https://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/ //How-to UML class diagrams
+http://famousaspect.com/ //Late design stuff, monetization and game design principles
