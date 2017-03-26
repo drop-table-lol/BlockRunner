@@ -5,8 +5,13 @@ public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false;
     public float resetartDelay = 1f;
+    public GameObject completeLevelUI;
 
 
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
+    }
 
     public void EndGame()
     {
@@ -23,4 +28,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+
+   
 }
