@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour {
             Jump();
         }
 
-        if (rb.position.y < -1f)
+        if (rb.position.x < -9f || rb.position.x > 9f)
         {
             FindObjectOfType<GameManager>().EndGame();
         }
