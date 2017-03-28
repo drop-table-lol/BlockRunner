@@ -5,11 +5,15 @@ public class PlayerMovement : MonoBehaviour {
 
     public Rigidbody rb;
     public Transform tr;
+    public Animation rotate;
+    public Animation unrotate;
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
     public float jumpForce = 500f;
     bool isJumping = false;
+    bool jumpEnabled = false; //The level should load this.
     bool isFat = true; //The level should load this.
+    //bool isRotated = false;
 	
 	// fixedupdate is better for physics
 	void FixedUpdate ()
@@ -27,7 +31,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
 
-        if (Input.GetKey("space"))//jump
+        if (Input.GetKey("space") && jumpEnabled)//jump
         {
             Debug.Log("Jump!");
             Jump();
@@ -47,15 +51,23 @@ public class PlayerMovement : MonoBehaviour {
         {
             if (Input.GetKeyDown("q")) // rotate left
             {
+                //if ((!rotate.isPlaying || unrotate.isPlaying) && !isRotated)
+                //rotate.Play();
                 tr.Rotate(0, 90, 0);
+                   
             }
 
             if (Input.GetKeyDown("e")) // rotate left
             {
-                tr.Rotate(0, -90, 0);
+                //if ((!rotate.isPlaying || unrotate.isPlaying) && isRotated)
+                //unrotate.Play();
+                tr.Rotate(0, 90, 0);
             }
         }
     }
+
+
+
 
 
     void Jump()
