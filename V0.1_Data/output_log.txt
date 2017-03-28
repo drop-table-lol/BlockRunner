@@ -17,1064 +17,316 @@ Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1_Data\Managed\UnityEng
 Loading C:\Users\snevi\Desktop\BlockRunner\V0.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\snevi\Desktop\BlockRunner\V0.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.023 seconds
+- Completed reload, in  0.124 seconds
 Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.493726 ms
+UnloadTime: 1.473578 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1378 -> priority: 1 
-  Thread -> id: 2d1c -> priority: 1 
-Game Over
+  Thread -> id: 39e0 -> priority: 1 
+  Thread -> id: 388c -> priority: 1 
+Starting game
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Doing Slowmo
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.930959 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 796.
+Total: 0.283653 ms (FindLiveObjects: 0.052543 ms CreateObjectMapping: 0.040296 ms MarkObjects: 0.184493 ms  DeleteObjects: 0.006320 ms)
+
+Jump!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.937375 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 394.
-Total: 0.227950 ms (FindLiveObjects: 0.022518 ms CreateObjectMapping: 0.030024 ms MarkObjects: 0.171456 ms  DeleteObjects: 0.003555 ms)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
- 
-(Filename:  Line: 172)
-
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Infinity or NaN floating point numbers appear when calculating the transform matrix for a Collider. Scene hierarchy path "SlowMoDevice"
+Jump!
  
-(Filename:  Line: 172)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
