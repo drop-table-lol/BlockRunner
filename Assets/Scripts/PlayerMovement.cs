@@ -16,18 +16,18 @@ public class PlayerMovement : MonoBehaviour {
     {
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);	
 
-        if (Input.GetKey("d")) //right
+        if (Input.GetKey("right") || Input.GetKey("d")) //right
         {
             rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
-        if (Input.GetKey("a"))//left
+        if (Input.GetKey("left") || Input.GetKey("a"))//left
         {
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
 
-        if (Input.GetKey("space"))//jump
+        if (Input.GetKey("up") || Input.GetKey("w") || Input.GetKey("space"))//jump
         {
             Debug.Log("Jump!");
             Jump();
