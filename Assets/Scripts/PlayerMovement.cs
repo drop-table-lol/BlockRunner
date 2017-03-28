@@ -4,10 +4,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public Rigidbody rb;
+    public Transform tr;
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
     public float jumpForce = 500f;
     bool isJumping = false;
+    bool isFat = true; //The level should load this.
 	
 	// fixedupdate is better for physics
 	void FixedUpdate ()
@@ -35,7 +37,25 @@ public class PlayerMovement : MonoBehaviour {
         {
             FindObjectOfType<GameManager>().EndGame();
         }
-	}
+
+    }
+
+
+    void Update()
+    {
+        if (isFat)
+        {
+            if (Input.GetKeyDown("q")) // rotate left
+            {
+                tr.Rotate(0, 90, 0);
+            }
+
+            if (Input.GetKeyDown("e")) // rotate left
+            {
+                tr.Rotate(0, -90, 0);
+            }
+        }
+    }
 
 
     void Jump()
