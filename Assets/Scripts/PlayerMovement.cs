@@ -6,18 +6,14 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody rb;
     public Transform tr;
-    public Animation rotate;
-    public Animation unrotate;
+    public GameObject remains;
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
     public float jumpForce = 500f;
     public float lastxpos = 0; //For turning
     public float lastzpos = 0; //For turning
-    [SerializeField]
     bool isForward = true;
-    [SerializeField]
     bool isLeft = false;
-    [SerializeField]
     bool isRight = false;
     bool isJumping = false;
     bool jumpEnabled = false; //The level should load this.
@@ -83,6 +79,8 @@ public class PlayerMovement : MonoBehaviour
             //delete player
             //explode copy
             Debug.Log("GG, player went too far on x");
+            Instantiate(remains, transform.position, transform.rotation);
+            Destroy(gameObject);
             FindObjectOfType<GameManager>().EndGame();
         }
 
@@ -93,6 +91,8 @@ public class PlayerMovement : MonoBehaviour
             //delete player
             //explode copy
             Debug.Log("GG, player went too far on z");
+            Instantiate(remains, transform.position, transform.rotation); ;
+            Destroy(gameObject);
             FindObjectOfType<GameManager>().EndGame();
 
         }
@@ -106,16 +106,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKeyDown("q")) // rotate left
             {
-                //if ((!rotate.isPlaying || unrotate.isPlaying) && !isRotated)
-                //rotate.Play();
                 tr.Rotate(0, 90, 0);
 
             }
 
             if (Input.GetKeyDown("e")) // rotate left
             {
-                //if ((!rotate.isPlaying || unrotate.isPlaying) && isRotated)
-                //unrotate.Play();
                 tr.Rotate(0, 90, 0);
             }
         }
