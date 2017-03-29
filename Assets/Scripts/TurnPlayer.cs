@@ -13,6 +13,7 @@ public class TurnPlayer : MonoBehaviour
         {
             Debug.Log("Turning Player");
             FindObjectOfType<PlayerMovement>().ChangeDirection(direction);
+            FindObjectOfType<followPlayer>().ChangeDirection(direction);
         }
     }
 }
