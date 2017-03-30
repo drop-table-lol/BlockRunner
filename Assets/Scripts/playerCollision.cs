@@ -13,11 +13,9 @@ public class playerCollision : MonoBehaviour
         {
             if (isInvincible)
             {
-                //movement.enabled = false;
                 Instantiate(playerPieces, transform.position, transform.rotation);
-                //FindObjectOfType<GameManager>().EndGame();
-                //Destroy(gameObject);
             }
+
             else
             {
                 movement.enabled = false;
@@ -25,7 +23,6 @@ public class playerCollision : MonoBehaviour
                 FindObjectOfType<GameManager>().EndGame();
                 Destroy(gameObject);
             }
-
         }
     }
 

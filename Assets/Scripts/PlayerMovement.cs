@@ -7,19 +7,14 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     public Transform tr;
     public GameObject remains;
+    public Camera playerCam;
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
     public float jumpForce = 500f;
     public float lastxpos = 0; //For turning
-    public float lastzpos = 0; //For turning
-    bool isForward = true;
-    bool isLeft = false;
-    bool isRight = false;
+    public float tracksize;
     bool isJumping = false;
-    bool jumpEnabled = false; //The level should load this.
-    bool isFat = true; //The level should load this.
-                       //bool isRotated = false;
-
+    public bool jumpEnabled = false; //The level should load this.
 
 
     // fixedupdate is better for physics
@@ -27,43 +22,17 @@ public class PlayerMovement : MonoBehaviour
     {
 
         //FORWARD
-        if (isForward)
-            rb.AddForce(0, 0, forwardForce * Time.deltaTime);
-
-        if (isRight)
-            rb.AddForce(forwardForce * Time.deltaTime, 0, 0);
-
-        if (isLeft)
-            rb.AddForce(-forwardForce * Time.deltaTime, 0, 0);
-
-
+        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
 
         //RIGHT
         if (Input.GetKey("right") || Input.GetKey("d")) //right
-        {
-            if (isForward)
                 rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-
-            if (isLeft)
-                rb.AddForce(0, 0, sidewaysForce * Time.deltaTime, ForceMode.VelocityChange);
-
-            if (isRight)
-                rb.AddForce(0, 0, -sidewaysForce * Time.deltaTime, ForceMode.VelocityChange);
-        }
-
 
         //LEFT
         if (Input.GetKey("left") || Input.GetKey("a")) //left
-        {
-            if (isForward)
                 rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
 
-            if (isLeft)
-                rb.AddForce(0, 0, -sidewaysForce * Time.deltaTime, ForceMode.VelocityChange);
 
-            if (isRight)
-                rb.AddForce(0, 0, sidewaysForce * Time.deltaTime, ForceMode.VelocityChange);
-        }
 
 
         if (Input.GetKey("space") && jumpEnabled)//jump
@@ -72,49 +41,16 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        if ((isForward) && (rb.position.x < lastxpos - 9f || rb.position.x > lastxpos + 9f))
+
+        if (rb.position.x < lastxpos - tracksize || rb.position.x > lastxpos + tracksize)
         {
-            //TODO
-            //find player
-            //delete player
-            //explode copy
-            Debug.Log("GG, player went too far on x");
+
+            Debug.Log("BG, player went too far on x");
             Instantiate(remains, transform.position, transform.rotation);
             Destroy(gameObject);
             FindObjectOfType<GameManager>().EndGame();
         }
 
-        if ((isLeft || isRight) && (rb.position.z < lastzpos - 9f || rb.position.z > lastzpos + 9f))
-        {
-            //TODO
-            //find player
-            //delete player
-            //explode copy
-            Debug.Log("GG, player went too far on z");
-            Instantiate(remains, transform.position, transform.rotation); ;
-            Destroy(gameObject);
-            FindObjectOfType<GameManager>().EndGame();
-
-        }
-
-    }
-
-
-    void Update()
-    {
-        if (isFat)
-        {
-            if (Input.GetKeyDown("q")) // rotate left
-            {
-                tr.Rotate(0, 90, 0);
-
-            }
-
-            if (Input.GetKeyDown("e")) // rotate left
-            {
-                tr.Rotate(0, 90, 0);
-            }
-        }
     }
 
 
@@ -138,39 +74,16 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    public void ChangeDirection(string _direction) //This will be accessed by the "track" on turns
-    {
-        Debug.Log("Changing Dir");
-        if (_direction == "Forward")
-        {
-            lastxpos = transform.position.x;
-            isForward = true;
-            isLeft = false;
-            isRight = false;
-
-        }
-
-        if (_direction == "Left")
-        {
-            lastzpos = transform.position.z;
-            isForward = false;
-            isLeft = true;
-            isRight = false;
-        }
-
-        if (_direction == "Right")
-        {
-            lastzpos = transform.position.z;
-            isForward = false;
-            isLeft = false;
-            isRight = true;
-        }
-    }
 
 
 
     public void AddJumpForce(int _jumpToAdd)
     {
         jumpForce += _jumpToAdd;
+    }
+
+    public void AddSpeedForce(int _speedtoAdd)
+    {
+        forwardForce += _speedtoAdd;
     }
 }

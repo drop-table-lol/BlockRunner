@@ -9,13 +9,45 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     //This will help with get and set vars, as well as make
     //A generalized function which invokes a powerup function
     //based on what we picked up.
-	
+
+    //Vars for powerups
+    int jumpForce = 50;
+    int speedForce = 10000;
+
+
+
     public void PowerUp(float lengthOfPowerup, string powerupType) //For testing
     {
         if (powerupType == "Jump")
         {
-            playermovement.AddJumpForce(50);
+            Debug.Log("Jump increased");
+            StartCoroutine(Jump(lengthOfPowerup));
+        }
+
+
+        if (powerupType == "Speed")
+        {
+            Debug.Log("Speed increased");
+            StartCoroutine(Speed(lengthOfPowerup));
         }
 
     }
+
+
+    IEnumerator Jump(float lengthOfPowerup)
+    {
+        playermovement.AddJumpForce(jumpForce);
+        yield return new WaitForSeconds(lengthOfPowerup);
+        playermovement.AddJumpForce(-jumpForce);
+
+    }
+
+    IEnumerator Speed(float lengthOfPowerup)
+    {
+        playermovement.AddSpeedForce(speedForce);
+        yield return new WaitForSeconds(lengthOfPowerup);
+        playermovement.AddSpeedForce(-speedForce);
+
+    }
+
 }
