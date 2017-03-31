@@ -10,13 +10,21 @@ public class bulletTime : MonoBehaviour {
     void Update()
     {
         Time.timeScale += (1f / slowdownLength) * Time.unscaledDeltaTime;
-        Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f); //play with this. Maybe a core game element to keep speeding up unless you have near misses. Reward good play
+        Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1.5f); //play with this. Maybe a core game element to keep speeding up unless you have near misses. Reward good play
         Time.fixedDeltaTime = Time.timeScale * .02f;
         Time.fixedDeltaTime = Mathf.Clamp(Time.fixedDeltaTime, 0.001f, 0.01f);
         if (Time.timeScale == 1)
         {
             //Debug.Log("Normal Speed");
             isSlow = false;
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            //if (isSlow == false)
+            {
+                DoSlowMotion();
+            }
         }
         
     }
