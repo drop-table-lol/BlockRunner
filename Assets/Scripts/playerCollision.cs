@@ -14,6 +14,7 @@ public class playerCollision : MonoBehaviour
             if (isInvincible)
             {
                 Instantiate(playerPieces, transform.position, transform.rotation);
+                collisionInfo.gameObject.GetComponent<ExplodeObstacle>().explodeNow = true;
             }
 
             else
