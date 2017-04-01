@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ActivatePlayerPowerup : MonoBehaviour {
     public PlayerMovement playermovement;
+    public playerCollision playercollision;
     //We need to make a list of vars we want to change based on 
     //different powerups. 
     //This will help with get and set vars, as well as make
@@ -23,12 +24,19 @@ public class ActivatePlayerPowerup : MonoBehaviour {
             Debug.Log("Jump increased");
             StartCoroutine(Jump(lengthOfPowerup));
         }
-
-
-        if (powerupType == "Speed")
+        else if (powerupType == "Speed")
         {
             Debug.Log("Speed increased");
             StartCoroutine(Speed(lengthOfPowerup));
+        }
+        else if(powerupType == "Invincible")
+        {
+            Debug.Log("Invinciblity activated");
+            StartCoroutine(Invincible(lengthOfPowerup));
+        }
+        else
+        {
+            Debug.LogError(powerupType + " is not a valid powerup name");
         }
 
     }
@@ -47,6 +55,14 @@ public class ActivatePlayerPowerup : MonoBehaviour {
         playermovement.AddSpeedForce(speedForce);
         yield return new WaitForSeconds(lengthOfPowerup);
         playermovement.AddSpeedForce(-speedForce);
+
+    }
+
+    IEnumerator Invincible(float lengthOfPowerup)
+    {
+        playercollision.isInvincible = true;
+        yield return new WaitForSeconds(lengthOfPowerup);
+        playercollision.isInvincible = false;
 
     }
 
