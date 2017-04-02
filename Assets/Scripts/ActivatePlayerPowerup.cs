@@ -14,7 +14,15 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     //Vars for powerups
     int jumpForce = 50;
     int speedForce = 10000;
+    private Renderer r;
+    public Material[] playerMats;
 
+    
+    void Start()
+    {
+        r = GetComponent<MeshRenderer>();
+        r.material = playerMats[0];
+    }
 
 
     public void PowerUp(float lengthOfPowerup, string powerupType) //For testing
@@ -61,8 +69,11 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     IEnumerator Invincible(float lengthOfPowerup)
     {
         playercollision.isInvincible = true;
+        r.material = playerMats[1];
         yield return new WaitForSeconds(lengthOfPowerup);
         playercollision.isInvincible = false;
+        r.material = playerMats[0];
+
 
     }
 
