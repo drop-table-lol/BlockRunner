@@ -91,10 +91,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void AddSize(int _sizeToAdd)
     {
-        Vector3 change = new Vector3(.1F *_sizeToAdd, 0.1F * _sizeToAdd, 0.1F * _sizeToAdd);
+        Vector3 change = new Vector3(0.1F *_sizeToAdd, 0.1F * _sizeToAdd, 0.1F * _sizeToAdd);
         if (tr.localScale.x > .1F * _sizeToAdd)
         {
             tr.localScale -= change;
+           // rb.mass -= (0.1F * _sizeToAdd); too rediculous for now. TODO figure out how to use this
         }
     }
 }
