@@ -18,6 +18,7 @@ public class playerCollision : MonoBehaviour
             if (isInvincible)
             {
                 collisionInfo.gameObject.GetComponent<ExplodeObstacle>().explodeNow = true;
+                FindObjectOfType<Score>().AddScore(50);
 
             }
 

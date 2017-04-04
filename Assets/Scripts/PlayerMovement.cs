@@ -57,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+
+
     void Jump()
     {
         if (isJumping == false)

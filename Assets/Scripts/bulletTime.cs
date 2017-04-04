@@ -24,7 +24,14 @@ public class bulletTime : MonoBehaviour {
             //if (isSlow == false)
             {
                 DoSlowMotion();
+                FindObjectOfType<Score>().AddScore(-1);
+                FindObjectOfType<Score>().isSlow(true);
             }
+        }
+        if (Input.GetMouseButtonUp(0))
+        { //user isn't doing slowmo anymore
+            FindObjectOfType<Score>().isSlow(false);
+
         }
         
     }
@@ -42,6 +49,7 @@ public class bulletTime : MonoBehaviour {
         {
             if (collisionInfo.collider.tag == "Obstacle")
             {
+                FindObjectOfType<Score>().AddScore(10);
                 if (isSlow == false)
                 {
                     isSlow = true;

@@ -16,6 +16,7 @@ public class PlayerPowerup : Pickup
     {
         GameObject player = GameObject.FindWithTag("Player");
         player.GetComponentInChildren<ActivatePlayerPowerup>().PowerUp(lengthOfPowerup, powerupType);
+        FindObjectOfType<Score>().AddScore(10);
     }
 	
 }
