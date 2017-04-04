@@ -86,4 +86,10 @@ public class PlayerMovement : MonoBehaviour
     {
         forwardForce += _speedtoAdd;
     }
+
+    public void AddSize(int _sizeToAdd)
+    {
+        Vector3 change = new Vector3(.1F *_sizeToAdd, 0.1F * _sizeToAdd, 0.1F * _sizeToAdd);
+        tr.localScale -= change;
+    }
 }

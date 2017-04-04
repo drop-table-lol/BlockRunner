@@ -8,6 +8,7 @@ public class PlayerPowerup : Pickup
     [Header("Speed")]
     [Header("Jump")]
     [Header("Invincible")]
+    [Header("Size")]
     public string powerupType; //What does it do. Probably a better way to do this
     public float lengthOfPowerup; //how many seconds does it last?
     

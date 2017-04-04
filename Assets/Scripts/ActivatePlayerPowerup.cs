@@ -14,10 +14,11 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     //Vars for powerups
     int jumpForce = 50;
     int speedForce = 10000;
+    int sizeToAdd = 5; //probably between 1 and 9
     private Renderer r;
     public Material[] playerMats;
 
-    
+
     void Start()
     {
         r = GetComponent<MeshRenderer>();
@@ -37,10 +38,15 @@ public class ActivatePlayerPowerup : MonoBehaviour {
             Debug.Log("Speed increased");
             StartCoroutine(Speed(lengthOfPowerup));
         }
-        else if(powerupType == "Invincible")
+        else if (powerupType == "Invincible")
         {
             Debug.Log("Invinciblity activated");
             StartCoroutine(Invincible(lengthOfPowerup));
+        }
+        else if (powerupType == "Size")
+        {
+            Debug.Log("Size decreased");
+            StartCoroutine(Size(lengthOfPowerup));
         }
         else
         {
@@ -74,6 +80,15 @@ public class ActivatePlayerPowerup : MonoBehaviour {
         playercollision.isInvincible = false;
         r.material = playerMats[0];
 
+
+    }
+
+
+    IEnumerator Size(float lengthOfPowerup)
+    {
+        playermovement.AddSize(sizeToAdd);
+        yield return new WaitForSeconds(lengthOfPowerup);
+        playermovement.AddSize(-sizeToAdd);
 
     }
 
