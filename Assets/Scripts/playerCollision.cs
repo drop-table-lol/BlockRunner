@@ -7,6 +7,10 @@ public class playerCollision : MonoBehaviour
 
     public bool isInvincible = false;
 
+
+
+
+
     void OnCollisionEnter(Collision collisionInfo)
     {
         if (collisionInfo.collider.tag == "Obstacle")
@@ -20,7 +24,7 @@ public class playerCollision : MonoBehaviour
             else
             {
                 movement.enabled = false;
-                Instantiate(playerPieces, transform.position, transform.rotation);
+                Instantiate(playerPieces, transform.position, transform.rotation);;
                 FindObjectOfType<GameManager>().EndGame();
                 Destroy(gameObject);
             }

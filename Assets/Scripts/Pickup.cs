@@ -5,9 +5,9 @@ public class Pickup : MonoBehaviour
 
 
 
-    public virtual void OnCollisionEnter(Collision collisionInfo)
+    public virtual void OnTriggerEnter(Collider collisionInfo)
     {
-        if (collisionInfo.collider.tag == "Player") //We've been picked up
+        if (collisionInfo.tag == "Player") //We've been picked up
         {
             ActivatePowerup();
             Destroy(gameObject);

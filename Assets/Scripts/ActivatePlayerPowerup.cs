@@ -25,7 +25,7 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     }
 
 
-    public void PowerUp(float lengthOfPowerup, string powerupType) //For testing
+    public void PowerUp(float lengthOfPowerup, string powerupType)
     {
         if (powerupType == "Jump")
         {

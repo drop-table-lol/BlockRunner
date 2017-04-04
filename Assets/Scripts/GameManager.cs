@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
             Invoke("Restart", resetartDelay);
         }
     }
+
 	
 
     void Restart()
