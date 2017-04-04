@@ -14,7 +14,7 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     //Vars for powerups
     int jumpForce = 50;
     int speedForce = 10000;
-    int sizeToAdd = 5; //probably between 1 and 9
+    int sizeToAdd = 3; //probably between 1 and 9
     private Renderer r;
     public Material[] playerMats;
 
@@ -76,6 +76,7 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     {
         playercollision.isInvincible = true;
         r.material = playerMats[1];
+        Invoke("FlashPlayer", lengthOfPowerup -1.5F);
         yield return new WaitForSeconds(lengthOfPowerup);
         playercollision.isInvincible = false;
         r.material = playerMats[0];
@@ -90,6 +91,38 @@ public class ActivatePlayerPowerup : MonoBehaviour {
         yield return new WaitForSeconds(lengthOfPowerup);
         playermovement.AddSize(-sizeToAdd);
 
+    }
+
+
+    void FlashPlayer()
+    {
+        Debug.Log("Flashing");
+        Invoke("Flash0", 1.4F);
+        Invoke("Flash1", 1.3F);
+        Invoke("Flash0", 1.2F);
+        Invoke("Flash1", 1.1F);
+        Invoke("Flash0", 1.0F);
+        Invoke("Flash1", .9F);
+        Invoke("Flash0", .8F);
+        Invoke("Flash1", .7F);
+        Invoke("Flash0", .6F);
+        Invoke("Flash1", .5F);
+        Invoke("Flash0", .4F);
+        Invoke("Flash1", .3F);
+        Invoke("Flash0", .2F);
+        Invoke("Flash1", .1F);
+    }
+
+    void Flash0()
+    {
+        Debug.Log("ChangingColorRED");
+        r.material = playerMats[0];
+    }
+
+    void Flash1()
+    {
+        Debug.Log("ChangingColorBLUE");
+        r.material = playerMats[1];
     }
 
 }

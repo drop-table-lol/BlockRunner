@@ -92,6 +92,9 @@ public class PlayerMovement : MonoBehaviour
     public void AddSize(int _sizeToAdd)
     {
         Vector3 change = new Vector3(.1F *_sizeToAdd, 0.1F * _sizeToAdd, 0.1F * _sizeToAdd);
-        tr.localScale -= change;
+        if (tr.localScale.x > .1F * _sizeToAdd)
+        {
+            tr.localScale -= change;
+        }
     }
 }
