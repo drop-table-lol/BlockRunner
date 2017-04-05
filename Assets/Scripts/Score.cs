@@ -6,14 +6,18 @@ public class Score : MonoBehaviour {
     public Text scoreText;
     int score = 0;
     bool slowMo = false;
+    bool isStop = false;
 
 	// Update is called once per frame
 	void Update ()
     {
-        scoreText.text = score.ToString();	
-        if (!slowMo)
+        if (!isStop)
         {
-            score++;
+            scoreText.text = score.ToString();
+            if (!slowMo)
+            {
+                score++;
+            }
         }
 	}
 
@@ -26,5 +30,10 @@ public class Score : MonoBehaviour {
     public void isSlow(bool slow)
     {
         slowMo = slow;
+    }
+
+    public void StopScore()
+    {
+        isStop = true;
     }
 }

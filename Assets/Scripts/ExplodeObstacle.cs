@@ -18,5 +18,10 @@ public class ExplodeObstacle : MonoBehaviour {
             Instantiate(obstacleRemains, transform.position, transform.rotation);
             Destroy(gameObject);
         }
+
+        if (gameObject.GetComponent<Rigidbody>().position.y < -5)
+        {
+            Destroy(gameObject);
+        }
 	}
 }

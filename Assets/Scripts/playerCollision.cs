@@ -27,6 +27,7 @@ public class playerCollision : MonoBehaviour
                 movement.enabled = false;
                 Instantiate(playerPieces, transform.position, transform.rotation);;
                 FindObjectOfType<GameManager>().EndGame();
+                FindObjectOfType<Score>().StopScore();
                 Destroy(gameObject);
             }
         }

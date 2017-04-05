@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 500f;
     public float lastxpos = 0; //For turning
     public float tracksize;
+    public bool limitX;
     bool isJumping = false;
     public bool jumpEnabled = false; //The level should load this.
 
@@ -41,16 +42,25 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-
-        if (rb.position.x < lastxpos - tracksize || rb.position.x > lastxpos + tracksize)
+        if (limitX)
         {
+            if (rb.position.x < lastxpos - tracksize || rb.position.x > lastxpos + tracksize)
+            {
 
-            Debug.Log("BG, player went too far on x");
+                Debug.Log("BG, player went too far on x");
+                Instantiate(remains, transform.position, transform.rotation);
+                Destroy(gameObject);
+                FindObjectOfType<GameManager>().EndGame();
+            }
+        }
+
+        if (rb.position.y < -5)
+        {
+            Debug.Log("BG, player went too far on y");
             Instantiate(remains, transform.position, transform.rotation);
             Destroy(gameObject);
             FindObjectOfType<GameManager>().EndGame();
         }
-
     }
 
 
