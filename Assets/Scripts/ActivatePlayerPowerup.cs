@@ -14,7 +14,7 @@ public class ActivatePlayerPowerup : MonoBehaviour {
     //Vars for powerups
     int jumpForce = 50;
     int speedForce = 10000;
-    int sizeToAdd = 3; //probably between 1 and 9
+    int sizeToAdd = -3; //probably between 1 and 9
     private Renderer r;
     public Material[] playerMats;
 

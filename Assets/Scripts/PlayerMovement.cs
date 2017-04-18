@@ -16,6 +16,9 @@ public class PlayerMovement : MonoBehaviour
     public bool limitX;
     bool isJumping = false;
     public bool jumpEnabled = false; //The level should load this.
+    int size = 0;
+    int sizeChange = 3;
+
 
 
     // fixedupdate is better for physics
@@ -34,6 +37,11 @@ public class PlayerMovement : MonoBehaviour
                 rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
 
 
+        if (Input.GetKeyDown("q")) //Smaller
+            AddSize(-sizeChange);
+
+        if (Input.GetKeyDown("e")) //bigger
+            AddSize(sizeChange);
 
 
         if (Input.GetKey("space") && jumpEnabled)//jump
@@ -102,10 +110,25 @@ public class PlayerMovement : MonoBehaviour
     public void AddSize(int _sizeToAdd)
     {
         Vector3 change = new Vector3(0.1F *_sizeToAdd, 0.1F * _sizeToAdd, 0.1F * _sizeToAdd);
-        if (tr.localScale.x > .1F * _sizeToAdd)
+        
+        if (_sizeToAdd > 0)
         {
-            tr.localScale -= change;
-           // rb.mass -= (0.1F * _sizeToAdd); too rediculous for now. TODO figure out how to use this
+            Debug.Log("Make Big");
+            if (size < 3)
+            {
+                size++;
+                tr.localScale += change;
+            }
+        }
+
+        if (_sizeToAdd < 0)
+        {
+            Debug.Log("Make Small");
+            if (size > -3)
+            {
+                size--;
+                tr.localScale += change;
+            }
         }
     }
 }
