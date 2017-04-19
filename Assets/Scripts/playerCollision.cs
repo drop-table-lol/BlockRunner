@@ -4,6 +4,7 @@ public class playerCollision : MonoBehaviour
 {
     public GameObject playerPieces;
     public PlayerMovement movement;
+    int candyScore = 20;
 
     public bool isInvincible = false;
 
@@ -30,6 +31,12 @@ public class playerCollision : MonoBehaviour
                 FindObjectOfType<Score>().StopScore();
                 Destroy(gameObject);
             }
+        }
+
+        if (collisionInfo.collider.tag == "Candy")
+        {
+            collisionInfo.gameObject.GetComponent<ExplodeObstacle>().explodeNow = true;
+            FindObjectOfType<Score>().AddScore(candyScore);
         }
     }
 
