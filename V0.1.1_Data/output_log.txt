@@ -1,0 +1,226 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+    Driver:   21.20.16.4550
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.092 seconds
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\snevi\Desktop\BlockRunner\V0.1.1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.190714 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1ec -> priority: 1 
+  Thread -> id: 31a4 -> priority: 1 
+click!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.611052 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 0.427851 ms (FindLiveObjects: 0.148147 ms CreateObjectMapping: 0.052938 ms MarkObjects: 0.219258 ms  DeleteObjects: 0.007111 ms)
+
+Launched Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Game Over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.196245 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 0.447999 ms (FindLiveObjects: 0.130765 ms CreateObjectMapping: 0.037530 ms MarkObjects: 0.272197 ms  DeleteObjects: 0.007111 ms)
+
+Launched Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Game Over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.004640 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 0.382024 ms (FindLiveObjects: 0.076641 ms CreateObjectMapping: 0.041086 ms MarkObjects: 0.255604 ms  DeleteObjects: 0.007901 ms)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Launched Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Game Over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.006220 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 0.404542 ms (FindLiveObjects: 0.088493 ms CreateObjectMapping: 0.041481 ms MarkObjects: 0.265876 ms  DeleteObjects: 0.008296 ms)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Launched Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player boosted
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player boosted
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Launched Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.505182 ms
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 744.
+Total: 0.442073 ms (FindLiveObjects: 0.038715 ms CreateObjectMapping: 0.037135 ms MarkObjects: 0.238616 ms  DeleteObjects: 0.127209 ms)
+
+Game Over
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.815406 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 744.
+Total: 0.396641 ms (FindLiveObjects: 0.050567 ms CreateObjectMapping: 0.044641 ms MarkObjects: 0.293925 ms  DeleteObjects: 0.006716 ms)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Make Big
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.059553 ms
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 1269.
+Total: 0.606418 ms (FindLiveObjects: 0.118518 ms CreateObjectMapping: 0.059259 ms MarkObjects: 0.350419 ms  DeleteObjects: 0.077036 ms)
+
+Make Small
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
